@@ -1,7 +1,8 @@
 import axios from "axios";
 
 // allows bypassing CORS headers without spinning up a server.
-const CORS_PROXY = "https://corsproxy.io/?";
+// const CORS_PROXY = "https://corsproxy.io/?"; bypassed rate limit
+const CORS_PROXY = "https://corsproxy.innkeeper1.workers.dev/?url=";
 
 type Card = {
   identifier: string;
