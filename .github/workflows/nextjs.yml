@@ -48,7 +48,7 @@ jobs:
             ${{ runner.os }}-nextjs-
 
       - name: Build site
-        run: pnpm build && pnpm next export
+        run: pnpm build
 
       - name: Create CNAME file
         run: echo 'card.cards.army' > out/CNAME
