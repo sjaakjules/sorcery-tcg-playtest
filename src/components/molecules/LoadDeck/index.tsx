@@ -140,7 +140,7 @@ const InputLoader = ({
               alt="card"
               width="165px"
               key={card.identifier + index}
-              src={`https://card.cards.army/cards/50/${card.identifier}.webp`}
+              src={`https://card.cards.army/cards/${card.identifier}.webp`}
             />
           </div>
         ))}

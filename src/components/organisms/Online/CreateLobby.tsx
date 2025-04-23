@@ -199,7 +199,7 @@ export const CreateLobby = () => {
         {cards.slice(0, 6).map((img, index, original) => (
           <img
             key={"image" + index}
-            src={`https://card.cards.army/cards/50/${img}.webp`}
+            src={`https://card.cards.army/cards/${img}.webp`}
             alt={"card" + index}
             className={fallingCard}
             style={{ left: (index + 1) * (90 / original.length) + "%" }}
