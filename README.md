@@ -69,3 +69,6 @@ Find instructions if you wish to setup your own game server.
 - [x] add solo turn rotator (play against yourself)
 - [x] add health counter
 - [x] use top header for info
+
+.
+
