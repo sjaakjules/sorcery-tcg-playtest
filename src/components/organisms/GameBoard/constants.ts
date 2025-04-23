@@ -114,6 +114,6 @@ export const initGameData: PlayerData = {
 /**
  * Returns the webp
  * */
-export function getCardImage(identifier: string, _quality: 50 | 100 = 100) {
+export function getCardImage(identifier: string) {
   return `https://card.cards.army/cards/${identifier}.webp`;
 }
